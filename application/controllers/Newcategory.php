@@ -33,4 +33,4 @@ class Newcategory extends CI_Controller {
 			echo $r;
 		}
 	}
-}
+}# Change 0 on 2019-06-08
