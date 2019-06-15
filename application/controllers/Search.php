@@ -298,4 +298,4 @@ class Search extends CI_Controller {
 			return $result;
 		}
 	}
-}
+}# Change 2 on 2019-06-15
