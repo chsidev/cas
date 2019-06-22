@@ -20,4 +20,4 @@ class Country extends CI_Controller {
 		$cities = $this->City->getAll();
 		exit(json_encode($cities));
 	}
-}
+}# Change 0 on 2019-06-22
