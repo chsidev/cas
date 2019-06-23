@@ -35,3 +35,4 @@ class Newcategory extends CI_Controller {
 	}
 }# Change 0 on 2019-06-08
 # Change 3 on 2019-06-22
+# Change 2 on 2019-06-23
