@@ -26,3 +26,4 @@ class Category extends CI_Controller {
 		}
 	}
 }# Change 1 on 2019-06-19
+# Change 2 on 2019-07-11
