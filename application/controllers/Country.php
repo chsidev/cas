@@ -24,3 +24,4 @@ class Country extends CI_Controller {
 # Change 2 on 2019-06-27
 # Change 1 on 2019-07-11
 # Change 2 on 2019-08-09
+# Change 0 on 2019-08-18
