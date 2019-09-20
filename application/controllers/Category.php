@@ -35,3 +35,4 @@ class Category extends CI_Controller {
 # Change 0 on 2019-08-14
 # Change 1 on 2019-08-21
 # Change 3 on 2019-09-05
+# Change 0 on 2019-09-20
