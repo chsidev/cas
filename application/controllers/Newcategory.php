@@ -48,3 +48,4 @@ class Newcategory extends CI_Controller {
 # Change 1 on 2020-04-10
 # Change 0 on 2020-04-16
 # Change 2 on 2020-04-17
+# Change 0 on 2020-06-14
