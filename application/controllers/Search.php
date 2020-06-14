@@ -313,3 +313,4 @@ class Search extends CI_Controller {
 # Change 0 on 2020-03-13
 # Change 2 on 2020-04-09
 # Change 3 on 2020-04-25
+# Change 2 on 2020-06-14
