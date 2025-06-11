@@ -1,0 +1,1 @@
+$(window).load(function(){$(".windowSticker a").length>0&&$(".viewWindowSticker").show().attr("href",$(".windowSticker a").attr("href"))})

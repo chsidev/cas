@@ -1,0 +1,131 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 293.5 235.6" style="enable-background:new 0 0 293.5 235.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#d0dbe0;stroke:#d0dbe0;}
+	.st1{fill:none;stroke:#1F80CC;stroke-width:43;stroke-miterlimit:10;}
+
+	svg {
+
+		max-width: 240px;
+		margin: 0 auto;
+	}
+
+	@keyframes grow {
+
+		15% {
+
+			opacity: 1;
+		}
+
+		20% {
+            
+            opacity: 1;
+			transform: scale(1);
+		}
+
+		100% {
+
+            opacity: 1;
+			transform: scale(1);
+		}
+	}
+
+	.sub_one {
+
+        opacity: 0;
+		transform-origin: 135px 160px;
+		transform: scale(.8);
+		animation: grow 2.5s linear infinite;
+	}
+
+    @keyframes offset {
+
+    	5.9325% {
+
+    		stroke-dashoffset: 0;
+    	}
+
+    	45% {
+
+    		stroke: #1F80CC;
+    	}
+
+    	100% {
+
+    		stroke-dashoffset: 0;
+    	}
+    }
+
+	line:nth-of-type(1) {
+
+		stroke-dasharray: 95;
+		stroke-dashoffset: 95;
+		animation: offset 2.5s linear infinite;
+	}
+
+    @keyframes offset_two {
+
+    	5.9325% {
+
+    		stroke-dashoffset: 175;
+    	}
+
+    	6.25% {
+
+    		stroke-dashoffset: 130;
+    	}
+
+    	16.875% {
+
+    		stroke-dashoffset: 0;
+    	}
+
+    	100% {
+
+    		stroke-dashoffset: 0;
+    	}
+    }
+
+	line:nth-of-type(2) {
+
+		stroke-dasharray: 175;
+		stroke-dashoffset: 175;
+		animation: offset_two 2.5s linear infinite;
+	}
+
+	@keyframes fade_in {
+
+		50% {
+
+			opacity: 0;
+		}
+
+		52% {
+
+			opacity: 1;
+		}
+
+		100% {
+
+			opacity: 1;
+		}
+	}
+
+    .feat {
+
+        opacity: 0;
+    	animation: fade_in 2.5s linear infinite;
+    }
+</style>
+<g class="sub_one">
+	<path class="st0" d="M119.9,134.6c30.5-30.4,61-60.7,91.5-91.1c10.1,10.1,20.2,20.2,30.3,30.3c-40.6,40.5-81.3,80.8-121.8,121.3
+		c-21.7-21.7-43.3-43.3-65-65C64.9,120,75,109.9,85.1,99.8C96.7,111.4,108.3,123,119.9,134.6z"/>
+</g>
+<g>
+    <line class="st1" x1="70" y1="114.9" x2="135" y2="179.9"/>
+    <line class="st1" x1="104.5" y1="180.1" x2="226.4" y2="58.7"/>
+</g>
+<g class="feat">
+	<path class="st0" d="M119.9,134.6c30.5-30.4,61-60.7,91.5-91.1c10.1,10.1,20.2,20.2,30.3,30.3c-40.6,40.5-81.3,80.8-121.8,121.3
+		c-21.7-21.7-43.3-43.3-65-65C64.9,120,75,109.9,85.1,99.8C96.7,111.4,108.3,123,119.9,134.6z"/>
+</g>
+</svg>

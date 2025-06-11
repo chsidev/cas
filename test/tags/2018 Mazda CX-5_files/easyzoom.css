@@ -1,0 +1,55 @@
+.easyzoom
+{
+    display: block;
+    position: relative;
+}
+.easyzoom img
+{
+    vertical-align: bottom;
+}
+.easyzoom.is-loading img
+{
+    cursor: progress;
+}
+.easyzoom.is-ready img
+{
+    cursor: crosshair;
+}
+.easyzoom.is-error img
+{
+    cursor: not-allowed;
+}
+.easyzoom-notice
+{
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 10px #888;
+    left: 50%;
+    line-height: 2em;
+    margin: -1em 0 0 -5em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 10em;
+    z-index: 150;
+}
+.easyzoom-flyout
+{
+    background: none repeat scroll 0 0 #fff;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+.easyzoom--overlay .easyzoom-flyout
+{
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.easyzoom--adjacent .easyzoom-flyout {
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	margin-left: 20px;
+}
